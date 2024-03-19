@@ -1,0 +1,58 @@
+.Principal{
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+body
+{
+
+    position: relative;
+    bottom: 40rem;
+}
+    
+
+h1{
+    width: 4rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39.8rem;
+    position: relative;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    top: 40rem;
+
+
+}
+.Principal-frase{
+    max-width: 25rem;
+}
+.Principal-imagen{
+    max-width: 20rem;
+}
+.Redes{
+    display: flex;
+    height: 50vh;
+    width: 24vw;
+   
+    
+
+    flex-direction: column;
+    
+    
+    
+}
+.Principal-Redes
+{
+    display: flex;
+}
+
+#T{
+    border-top:none ;
+}
+#L,#I{
+    border-bottom: .5rem black ridge;
+}
